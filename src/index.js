@@ -733,5 +733,5 @@ app.get('/api/v1/waypoints', async (req, res) => {
 // start express server
 const listener = app.listen(port, () => {
     const port = listener.address().port;
-    console.log(`Server running at http://127.0.0.1:${port}`);
+    console.log(`Server running at http://0.0.0.0:${port}`);
 });
